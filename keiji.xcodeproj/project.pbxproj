@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D171D6841C2C832C007F04A6 /* Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D171D6831C2C832C007F04A6 /* Calendar.swift */; };
+		D17405691C3547AE0035043F /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17405681C3547AE0035043F /* Timer.swift */; };
+		D177339E1C29EEE8005AC94E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D177339D1C29EEE8005AC94E /* AppDelegate.swift */; };
+		D17733A01C29EEE8005AC94E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D177339F1C29EEE8005AC94E /* ViewController.swift */; };
+		D17733A21C29EEE8005AC94E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D17733A11C29EEE8005AC94E /* Assets.xcassets */; };
+		D17733A51C29EEE8005AC94E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D17733A31C29EEE8005AC94E /* Main.storyboard */; };
+		D17733B01C29EEE8005AC94E /* keijiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17733AF1C29EEE8005AC94E /* keijiTests.swift */; };
+		D17733BB1C29EEE8005AC94E /* keijiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17733BA1C29EEE8005AC94E /* keijiUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D17733AC1C29EEE8005AC94E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D17733921C29EEE8005AC94E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D17733991C29EEE8005AC94E;
+			remoteInfo = keiji;
+		};
+		D17733B71C29EEE8005AC94E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D17733921C29EEE8005AC94E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D17733991C29EEE8005AC94E;
+			remoteInfo = keiji;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D171D6831C2C832C007F04A6 /* Calendar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calendar.swift; sourceTree = "<group>"; };
+		D17405681C3547AE0035043F /* Timer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
+		D177339A1C29EEE8005AC94E /* keiji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = keiji.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D177339D1C29EEE8005AC94E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D177339F1C29EEE8005AC94E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D17733A11C29EEE8005AC94E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D17733A41C29EEE8005AC94E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D17733A61C29EEE8005AC94E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D17733AB1C29EEE8005AC94E /* keijiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = keijiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D17733AF1C29EEE8005AC94E /* keijiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = keijiTests.swift; sourceTree = "<group>"; };
+		D17733B11C29EEE8005AC94E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D17733B61C29EEE8005AC94E /* keijiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = keijiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D17733BA1C29EEE8005AC94E /* keijiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = keijiUITests.swift; sourceTree = "<group>"; };
+		D17733BC1C29EEE8005AC94E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D17733971C29EEE8005AC94E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D17733A81C29EEE8005AC94E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D17733B31C29EEE8005AC94E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D17733911C29EEE8005AC94E = {
+			isa = PBXGroup;
+			children = (
+				D177339C1C29EEE8005AC94E /* keiji */,
+				D17733AE1C29EEE8005AC94E /* keijiTests */,
+				D17733B91C29EEE8005AC94E /* keijiUITests */,
+				D177339B1C29EEE8005AC94E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D177339B1C29EEE8005AC94E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D177339A1C29EEE8005AC94E /* keiji.app */,
+				D17733AB1C29EEE8005AC94E /* keijiTests.xctest */,
+				D17733B61C29EEE8005AC94E /* keijiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D177339C1C29EEE8005AC94E /* keiji */ = {
+			isa = PBXGroup;
+			children = (
+				D177339D1C29EEE8005AC94E /* AppDelegate.swift */,
+				D177339F1C29EEE8005AC94E /* ViewController.swift */,
+				D17733A11C29EEE8005AC94E /* Assets.xcassets */,
+				D17733A31C29EEE8005AC94E /* Main.storyboard */,
+				D17733A61C29EEE8005AC94E /* Info.plist */,
+				D171D6831C2C832C007F04A6 /* Calendar.swift */,
+				D17405681C3547AE0035043F /* Timer.swift */,
+			);
+			path = keiji;
+			sourceTree = "<group>";
+		};
+		D17733AE1C29EEE8005AC94E /* keijiTests */ = {
+			isa = PBXGroup;
+			children = (
+				D17733AF1C29EEE8005AC94E /* keijiTests.swift */,
+				D17733B11C29EEE8005AC94E /* Info.plist */,
+			);
+			path = keijiTests;
+			sourceTree = "<group>";
+		};
+		D17733B91C29EEE8005AC94E /* keijiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D17733BA1C29EEE8005AC94E /* keijiUITests.swift */,
+				D17733BC1C29EEE8005AC94E /* Info.plist */,
+			);
+			path = keijiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D17733991C29EEE8005AC94E /* keiji */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D17733BF1C29EEE8005AC94E /* Build configuration list for PBXNativeTarget "keiji" */;
+			buildPhases = (
+				D17733961C29EEE8005AC94E /* Sources */,
+				D17733971C29EEE8005AC94E /* Frameworks */,
+				D17733981C29EEE8005AC94E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = keiji;
+			productName = keiji;
+			productReference = D177339A1C29EEE8005AC94E /* keiji.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D17733AA1C29EEE8005AC94E /* keijiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D17733C21C29EEE8005AC94E /* Build configuration list for PBXNativeTarget "keijiTests" */;
+			buildPhases = (
+				D17733A71C29EEE8005AC94E /* Sources */,
+				D17733A81C29EEE8005AC94E /* Frameworks */,
+				D17733A91C29EEE8005AC94E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D17733AD1C29EEE8005AC94E /* PBXTargetDependency */,
+			);
+			name = keijiTests;
+			productName = keijiTests;
+			productReference = D17733AB1C29EEE8005AC94E /* keijiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D17733B51C29EEE8005AC94E /* keijiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D17733C51C29EEE8005AC94E /* Build configuration list for PBXNativeTarget "keijiUITests" */;
+			buildPhases = (
+				D17733B21C29EEE8005AC94E /* Sources */,
+				D17733B31C29EEE8005AC94E /* Frameworks */,
+				D17733B41C29EEE8005AC94E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D17733B81C29EEE8005AC94E /* PBXTargetDependency */,
+			);
+			name = keijiUITests;
+			productName = keijiUITests;
+			productReference = D17733B61C29EEE8005AC94E /* keijiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D17733921C29EEE8005AC94E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = yoru9zine;
+				TargetAttributes = {
+					D17733991C29EEE8005AC94E = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					D17733AA1C29EEE8005AC94E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D17733991C29EEE8005AC94E;
+					};
+					D17733B51C29EEE8005AC94E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D17733991C29EEE8005AC94E;
+					};
+				};
+			};
+			buildConfigurationList = D17733951C29EEE8005AC94E /* Build configuration list for PBXProject "keiji" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D17733911C29EEE8005AC94E;
+			productRefGroup = D177339B1C29EEE8005AC94E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D17733991C29EEE8005AC94E /* keiji */,
+				D17733AA1C29EEE8005AC94E /* keijiTests */,
+				D17733B51C29EEE8005AC94E /* keijiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D17733981C29EEE8005AC94E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D17733A21C29EEE8005AC94E /* Assets.xcassets in Resources */,
+				D17733A51C29EEE8005AC94E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D17733A91C29EEE8005AC94E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D17733B41C29EEE8005AC94E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D17733961C29EEE8005AC94E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D17733A01C29EEE8005AC94E /* ViewController.swift in Sources */,
+				D171D6841C2C832C007F04A6 /* Calendar.swift in Sources */,
+				D177339E1C29EEE8005AC94E /* AppDelegate.swift in Sources */,
+				D17405691C3547AE0035043F /* Timer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D17733A71C29EEE8005AC94E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D17733B01C29EEE8005AC94E /* keijiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D17733B21C29EEE8005AC94E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D17733BB1C29EEE8005AC94E /* keijiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D17733AD1C29EEE8005AC94E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D17733991C29EEE8005AC94E /* keiji */;
+			targetProxy = D17733AC1C29EEE8005AC94E /* PBXContainerItemProxy */;
+		};
+		D17733B81C29EEE8005AC94E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D17733991C29EEE8005AC94E /* keiji */;
+			targetProxy = D17733B71C29EEE8005AC94E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D17733A31C29EEE8005AC94E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D17733A41C29EEE8005AC94E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D17733BD1C29EEE8005AC94E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D17733BE1C29EEE8005AC94E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D17733C01C29EEE8005AC94E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = keiji/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yoru9zine.keiji;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D17733C11C29EEE8005AC94E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = keiji/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yoru9zine.keiji;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D17733C31C29EEE8005AC94E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = keijiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yoru9zine.keijiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/keiji.app/Contents/MacOS/keiji";
+			};
+			name = Debug;
+		};
+		D17733C41C29EEE8005AC94E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = keijiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yoru9zine.keijiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/keiji.app/Contents/MacOS/keiji";
+			};
+			name = Release;
+		};
+		D17733C61C29EEE8005AC94E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = keijiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yoru9zine.keijiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = keiji;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D17733C71C29EEE8005AC94E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = keijiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yoru9zine.keijiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = keiji;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D17733951C29EEE8005AC94E /* Build configuration list for PBXProject "keiji" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D17733BD1C29EEE8005AC94E /* Debug */,
+				D17733BE1C29EEE8005AC94E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D17733BF1C29EEE8005AC94E /* Build configuration list for PBXNativeTarget "keiji" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D17733C01C29EEE8005AC94E /* Debug */,
+				D17733C11C29EEE8005AC94E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D17733C21C29EEE8005AC94E /* Build configuration list for PBXNativeTarget "keijiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D17733C31C29EEE8005AC94E /* Debug */,
+				D17733C41C29EEE8005AC94E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D17733C51C29EEE8005AC94E /* Build configuration list for PBXNativeTarget "keijiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D17733C61C29EEE8005AC94E /* Debug */,
+				D17733C71C29EEE8005AC94E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D17733921C29EEE8005AC94E /* Project object */;
+}
